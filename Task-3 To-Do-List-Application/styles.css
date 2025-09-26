@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+/* New CSS for the circle status indicator */
+.status-circle {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 15px;
+    background-color: transparent;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+/* New CSS for when the circle is "checked" */
+.status-circle.completed {
+    background-color: #4CAF50; /* A green color */
+    border-color: #4CAF50;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.header-container h1 {
+    margin: 0;
+}
+
+.header-container img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+#todo-form {
+    display: flex;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+#todo-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #e6e6fa;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#todo-list {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+#todo-list li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
