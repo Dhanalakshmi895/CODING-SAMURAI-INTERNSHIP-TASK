@@ -1,0 +1,60 @@
+body { 
+    font-family: sans-serif; 
+    margin: 20px; 
+    background: linear-gradient(to right, #e0f7fa, #c5f4ea);
+    color:#333;
+}
+.post { 
+    border: 1px solid #ccc; 
+    padding: 15px; 
+    margin-bottom: 25px; 
+    border-radius: 8px; 
+    position: relative;
+}
+.post h2 { 
+    margin-top: 0; 
+}
+#posts-container { 
+    margin-top: 40px; 
+}
+.comment-section {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px dashed #ccc;
+}
+.comment {
+    background-color: #f9f9f9;
+    border-left: 3px solid #007bff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+.comment p {
+    margin: 0;
+}
+.comment-form {
+    margin-top: 15px;
+}
+.comment-form input, .comment-form textarea {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+.comment-form button {
+    padding: 8px 12px;
+}
+.edit-btn, .delete-btn {
+    padding: 6px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+.edit-btn {
+    background-color: #ffc107;
+    color: white;
+}
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+}
